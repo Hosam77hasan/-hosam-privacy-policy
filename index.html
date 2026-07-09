@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>سياسة الخصوصية — ESD Tuning</title>
+    <style>
+        :root {
+            --gold: #D4A843;
+            --bg: #0D0D0D;
+            --surface: #1A1A1A;
+            --text: #E0E0E0;
+            --muted: #999;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.8;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        h1 {
+            color: var(--gold);
+            text-align: center;
+            padding: 40px 0 20px;
+            font-size: 2em;
+            border-bottom: 2px solid var(--gold);
+            margin-bottom: 30px;
+        }
+        h2 {
+            color: var(--gold);
+            margin: 30px 0 15px;
+            font-size: 1.3em;
+        }
+        p, li { margin-bottom: 12px; color: var(--text); }
+        ul { padding-right: 25px; }
+        .lang-switch {
+            text-align: center;
+            margin: 20px 0;
+        }
+        .lang-switch button {
+            background: var(--surface);
+            color: var(--gold);
+            border: 1px solid var(--gold);
+            padding: 8px 24px;
+            cursor: pointer;
+            border-radius: 20px;
+            font-size: 1em;
+            margin: 0 5px;
+        }
+        .lang-switch button.active {
+            background: var(--gold);
+            color: var(--bg);
+        }
+        .section { margin-bottom: 25px; }
+        .footer {
+            text-align: center;
+            margin-top: 50px;
+            padding: 20px;
+            color: var(--muted);
+            font-size: 0.85em;
+            border-top: 1px solid #333;
+        }
+        .contact {
+            background: var(--surface);
+            padding: 20px;
+            border-radius: 12px;
+            border: 1px solid #333;
+        }
+        .contact a { color: var(--gold); text-decoration: none; }
+        [lang="en"] { display: none; }
+        body.en [lang="ar"] { display: none; }
+        body.en [lang="en"] { display: block; }
+        body.en { direction: ltr; }
+        body.en ul { padding-right: 0; padding-left: 25px; }
+    </style>
+</head>
+<body class="ar">
+    <div class="lang-switch">
+        <button id="btnAr" class="active" onclick="setLang('ar')">العربية</button>
+        <button id="btnEn" onclick="setLang('en')">English</button>
+    </div>
+
+    <h1 lang="ar">🔒 سياسة الخصوصية</h1>
+    <h1 lang="en">🔒 Privacy Policy</h1>
+
+    <p lang="ar" style="text-align:center;color:var(--gold);font-weight:bold;font-size:1.2em;">ESD Tuning</p>
+    <p lang="en" style="text-align:center;color:var(--gold);font-weight:bold;font-size:1.2em;">ESD Tuning</p>
+
+    <p lang="ar" style="text-align:center;color:var(--muted);">آخر تحديث: ٩ يوليو ٢٠٢٦</p>
+    <p lang="en" style="text-align:center;color:var(--muted);">Last Updated: July 9, 2026</p>
+
+    <!-- ── Arabic ── -->
+    <div lang="ar">
+        <div class="section">
+            <h2>١. مقدمة</h2>
+            <p>نحن في <strong>ESD Tuning</strong> نهتم بخصوصيتك. توضح سياسة الخصوصية هذه كيفية تعاملنا مع بياناتك عند استخدامك لتطبيق ESD Tuning ("التطبيق"). باستخدامك للتطبيق، فإنك توافق على جمع واستخدام المعلومات وفقاً لهذه السياسة.</p>
+        </div>
+
+        <div class="section">
+            <h2>٢. المعلومات التي نجمعها</h2>
+            <p>يجمع التطبيق أنواع البيانات التالية:</p>
+            <ul>
+                <li><strong>ملفات الكنترول (ECU/TCU Files):</strong> ملفات السوفت وير التي ترفعها لتعديلها. تُستخدم حصراً لتنفيذ الخدمة المطلوبة.</li>
+                <li><strong>معلومات الجهاز:</strong> بصمة جهاز فريدة (Device ID) للتعرف على طلباتك دون الحاجة لتسجيل حساب.</li>
+                <li><strong>إشعارات FCM:</strong> رمز FCM Token لإرسال إشعارات عن حالة طلبك.</li>
+                <li><strong>بيانات التواصل (اختياري):</strong> الاسم ورقم الهاتف إذا اخترت تقديمهما للتواصل بخصوص الطلب. نستخدم هذه البيانات حصراً لإعلامك بحالة طلبك.</li>
+                <li><strong>صورة إثبات الدفع (اختياري):</strong> لقطة شاشة التحويل البنكي، إن قمت برفعها.</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>٣. كيف نستخدم معلوماتك</h2>
+            <p>نستخدم بياناتك حصراً للأغراض التالية:</p>
+            <ul>
+                <li>معالجة ملف الكنترول الخاص بك وتنفيذ التعديلات المطلوبة</li>
+                <li>إرسال إشعارات عن حالة طلبك (قيد المراجعة، جاري المعالجة، مكتمل)</li>
+                <li>التواصل معك إذا احتجنا معلومات إضافية عن طلبك</li>
+                <li>تحسين جودة الخدمة وتوسيع قاعدة بيانات الكنترولات المدعومة</li>
+            </ul>
+            <p><strong>لا نبيع بياناتك لأي طرف ثالث. لا نشارك ملفات الكنترول الخاصة بك مع أي جهة أخرى.</strong></p>
+        </div>
+
+        <div class="section">
+            <h2>٤. تخزين البيانات وأمنها</h2>
+            <ul>
+                <li>تُخزن الملفات المرفوعة والبيانات على خوادم <strong>Supabase</strong> الآمنة.</li>
+                <li>جميع الاتصالات بين التطبيق والخادم مشفرة بـ <strong>HTTPS/TLS</strong>.</li>
+                <li>تُحذف الملفات المعدلة تلقائياً من الخادم بعد <strong>٢٤ ساعة</strong> من اكتمال المعالجة.</li>
+                <li>لا نطلب منك كلمة مرور — نستخدم بصمة الجهاز فقط للتعرف على طلباتك.</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>٥. الإشعارات (FCM)</h2>
+            <p>يستخدم التطبيق <strong>Firebase Cloud Messaging (FCM)</strong> لإرسال إشعارات عن:</p>
+            <ul>
+                <li>استلام طلبك وبدء مراجعته</li>
+                <li>تأكيد الدفع وبدء معالجة الملف</li>
+                <li>اكتمال التعديل وجاهزية الملف للتحميل</li>
+                <li>أي مشكلة في معالجة طلبك</li>
+            </ul>
+            <p>يمكنك تعطيل الإشعارات من إعدادات جهازك في أي وقت.</p>
+        </div>
+
+        <div class="section">
+            <h2>٦. صلاحيات التطبيق</h2>
+            <ul>
+                <li><strong>الإنترنت:</strong> للتواصل مع خادم التعديل</li>
+                <li><strong>الملفات:</strong> لاختيار ورفع ملفات الكنترول</li>
+                <li><strong>الإشعارات:</strong> لإعلامك بحالة الطلب</li>
+                <li><strong>الكاميرا / المعرض (اختياري):</strong> لرفع صورة إثبات الدفع</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>٧. الأطفال</h2>
+            <p>التطبيق غير موجه للأطفال دون سن ١٣ عاماً. لا نجمع عن قصد بيانات من الأطفال.</p>
+        </div>
+
+        <div class="section">
+            <h2>٨. تغييرات سياسة الخصوصية</h2>
+            <p>قد نُحدّث سياسة الخصوصية من وقت لآخر. سيتم إعلامك بأي تغييرات عبر إشعار داخل التطبيق. استمرارك في استخدام التطبيق بعد التحديث يعني موافقتك على السياسة المُعدّلة.</p>
+        </div>
+
+        <div class="section contact">
+            <h2>٩. تواصل معنا</h2>
+            <p>لأي استفسار عن سياسة الخصوصية أو طلب حذف بياناتك:</p>
+            <p>📧 البريد الإلكتروني: <a href="mailto:hosam77hasan@proton.me">hosam77hasan@proton.me</a></p>
+        </div>
+    </div>
+
+    <!-- ── English ── -->
+    <div lang="en">
+        <div class="section">
+            <h2>1. Introduction</h2>
+            <p>At <strong>ESD Tuning</strong>, we take your privacy seriously. This Privacy Policy explains how we handle your data when you use the ESD Tuning app ("the App"). By using the App, you agree to the collection and use of information in accordance with this policy.</p>
+        </div>
+
+        <div class="section">
+            <h2>2. Information We Collect</h2>
+            <p>The App collects the following types of data:</p>
+            <ul>
+                <li><strong>ECU/TCU Files:</strong> The software files you upload for tuning. Used exclusively to perform the requested service.</li>
+                <li><strong>Device Information:</strong> A unique device fingerprint (Device ID) to identify your orders without requiring account registration.</li>
+                <li><strong>FCM Token:</strong> Used to send you push notifications about your order status.</li>
+                <li><strong>Contact Information (Optional):</strong> Name and phone number if you choose to provide them for order communication. We use this data solely to notify you about your order status.</li>
+                <li><strong>Payment Proof Screenshot (Optional):</strong> A screenshot of your payment transfer, if you upload one.</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>3. How We Use Your Information</h2>
+            <p>We use your data exclusively for the following purposes:</p>
+            <ul>
+                <li>Processing your ECU/TCU file and performing the requested tuning modifications</li>
+                <li>Sending notifications about your order status (pending review, processing, completed)</li>
+                <li>Contacting you if we need additional information about your order</li>
+                <li>Improving service quality and expanding our supported controller database</li>
+            </ul>
+            <p><strong>We do not sell your data to any third party. We do not share your ECU/TCU files with anyone else.</strong></p>
+        </div>
+
+        <div class="section">
+            <h2>4. Data Storage & Security</h2>
+            <ul>
+                <li>Uploaded files and data are stored on secure <strong>Supabase</strong> servers.</li>
+                <li>All communication between the App and server is encrypted via <strong>HTTPS/TLS</strong>.</li>
+                <li>Modified files are <strong>automatically deleted</strong> from the server <strong>24 hours</strong> after processing is complete.</li>
+                <li>We do not ask for a password — we use device fingerprinting only to identify your orders.</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>5. Notifications (FCM)</h2>
+            <p>The App uses <strong>Firebase Cloud Messaging (FCM)</strong> to send notifications about:</p>
+            <ul>
+                <li>Order received and payment review started</li>
+                <li>Payment confirmed and file processing started</li>
+                <li>Tuning complete and file ready for download</li>
+                <li>Any issues with your order processing</li>
+            </ul>
+            <p>You can disable notifications from your device settings at any time.</p>
+        </div>
+
+        <div class="section">
+            <h2>6. App Permissions</h2>
+            <ul>
+                <li><strong>Internet:</strong> To communicate with the tuning server</li>
+                <li><strong>Files:</strong> To select and upload controller files</li>
+                <li><strong>Notifications:</strong> To notify you of order status</li>
+                <li><strong>Camera / Gallery (Optional):</strong> To upload payment proof screenshot</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>7. Children</h2>
+            <p>The App is not directed at children under 13. We do not knowingly collect data from children.</p>
+        </div>
+
+        <div class="section">
+            <h2>8. Privacy Policy Changes</h2>
+            <p>We may update this Privacy Policy from time to time. You will be notified of any changes via an in-app notification. Continued use of the App after updates constitutes acceptance of the revised policy.</p>
+        </div>
+
+        <div class="section contact">
+            <h2>9. Contact Us</h2>
+            <p>For any privacy questions or data deletion requests:</p>
+            <p>📧 Email: <a href="mailto:hosam77hasan@proton.me">hosam77hasan@proton.me</a></p>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>&copy; 2026 ESD Tuning. All rights reserved.</p>
+    </div>
+
+    <script>
+        function setLang(lang) {
+            document.body.className = lang;
+            document.getElementById('btnAr').classList.toggle('active', lang === 'ar');
+            document.getElementById('btnEn').classList.toggle('active', lang === 'en');
+        }
+    </script>
+</body>
+</html>
