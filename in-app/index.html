@@ -1,0 +1,644 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>سياسة الخصوصية — تطبيق IN</title>
+    <meta name="description" content="سياسة الخصوصية لتطبيق IN لإدارة الحضور والانصراف — البيانات التي نجمعها، الصلاحيات، مدد الحفظ، وحقوق المستخدم.">
+    <style>
+        :root {
+            --brand: #0F766E;
+            --brand-dark: #115E59;
+            --bg: #F6F8F8;
+            --surface: #FFFFFF;
+            --text: #1F2937;
+            --muted: #6B7280;
+            --border: #E5E7EB;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Segoe UI', Tahoma, -apple-system, BlinkMacSystemFont, Roboto, sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.9;
+            padding: 0 0 60px;
+        }
+        header {
+            background: linear-gradient(135deg, var(--brand) 0%, var(--brand-dark) 100%);
+            color: #fff;
+            padding: 48px 20px 40px;
+            text-align: center;
+        }
+        header h1 { font-size: 1.9em; margin-bottom: 8px; }
+        header .app { font-size: 1.05em; opacity: .95; }
+        header .badge {
+            display: inline-block;
+            margin-top: 14px;
+            background: rgba(255,255,255,.16);
+            border: 1px solid rgba(255,255,255,.35);
+            border-radius: 20px;
+            padding: 5px 16px;
+            font-size: .85em;
+        }
+        main {
+            max-width: 880px;
+            margin: -24px auto 0;
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 14px;
+            padding: 34px 30px 42px;
+            box-shadow: 0 8px 30px rgba(0,0,0,.06);
+        }
+        h2 {
+            color: var(--brand-dark);
+            font-size: 1.22em;
+            margin: 34px 0 12px;
+            padding-bottom: 8px;
+            border-bottom: 2px solid var(--border);
+        }
+        h2:first-of-type { margin-top: 8px; }
+        h3 { color: var(--brand-dark); font-size: 1.02em; margin: 20px 0 8px; }
+        p, li { margin-bottom: 10px; }
+        ul, ol { padding-inline-start: 24px; }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 14px 0 18px;
+            font-size: .95em;
+        }
+        th, td {
+            border: 1px solid var(--border);
+            padding: 10px 12px;
+            text-align: start;
+            vertical-align: top;
+        }
+        th { background: #F0FDFA; color: var(--brand-dark); font-weight: 600; }
+        tbody tr:nth-child(even) { background: #FAFAFA; }
+        code {
+            background: #F3F4F6;
+            border: 1px solid var(--border);
+            border-radius: 5px;
+            padding: 1px 6px;
+            font-size: .88em;
+            direction: ltr;
+            display: inline-block;
+        }
+        a { color: var(--brand); }
+        .meta {
+            background: #F0FDFA;
+            border: 1px solid #CCFBF1;
+            border-radius: 10px;
+            padding: 16px 18px;
+            margin-bottom: 10px;
+            font-size: .95em;
+        }
+        .meta strong { color: var(--brand-dark); }
+        .note {
+            background: #FFFBEB;
+            border-inline-start: 4px solid #F59E0B;
+            border-radius: 8px;
+            padding: 14px 16px;
+            margin: 16px 0;
+        }
+        footer {
+            max-width: 880px;
+            margin: 26px auto 0;
+            text-align: center;
+            color: var(--muted);
+            font-size: .9em;
+            padding: 0 20px;
+        }
+        .en { direction: ltr; text-align: left; }
+        @media print {
+            body { background: #fff; }
+            header { background: #fff; color: var(--text); }
+            main { box-shadow: none; border: none; margin-top: 0; }
+            h2 { page-break-after: avoid; }
+        }
+        @media (max-width: 640px) {
+            main { border-radius: 0; padding: 22px 18px 30px; }
+            table { font-size: .88em; }
+            th, td { padding: 8px; }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>سياسة الخصوصية</h1>
+    <div class="app">تطبيق <strong>IN</strong> لإدارة الحضور والانصراف والمواقع والورديات</div>
+    <div class="badge">آخر تحديث: 10 سبتمبر 2026</div>
+</header>
+
+<main>
+
+    <div class="meta">
+        <p><strong>اسم التطبيق:</strong> IN (تطبيق صاحب العمل)</p>
+        <p><strong>معرّف الحزمة:</strong> <code>com.inemperor.hosam77</code></p>
+        <p><strong>المطوّر / المسؤول عن البيانات:</strong> Hosam Hasan</p>
+        <p><strong>البريد الإلكتروني للتواصل:</strong> <a href="mailto:elhosam77@gmail.com">elhosam77@gmail.com</a></p>
+        <p><strong>رابط هذه السياسة:</strong> <a href="https://hosam77hasan.github.io/-hosam-privacy-policy/in-app/">https://hosam77hasan.github.io/-hosam-privacy-policy/in-app/</a></p>
+    </div>
+
+    <h2>١. مقدمة ونطاق السياسة</h2>
+    <p>
+        يوضّح هذا المستند سياسة الخصوصية المتبعة في تطبيق <strong>IN</strong> («التطبيق») — وهو تطبيق
+        لإدارة الحضور والانصراف والمواقع والورديات للعاملين في المنشآت التجارية، مخصَّص لصاحب العمل
+        («العميل»)، ويعمل معه رابط ويب للعاملين (PWA) لا يُنشر على المتاجر.
+    </p>
+    <p>
+        باستخدامك التطبيق فإنك تقرّ بأنك قرأت هذه السياسة وفهمتها ووافقت عليها. إذا لم توافق عليها
+        يُرجى عدم استخدام التطبيق.
+    </p>
+
+    <h3>الأدوار: من يتحكم في البيانات؟</h3>
+    <ul>
+        <li><strong>صاحب العمل (العميل)</strong> هو المتحكّم في بيانات المنشأة وبيانات العاملين لديها
+            (الأسماء، أرقام الهواتف، صور الحضور، المواقع، سجلات الحضور والإجازات)، وهو المسؤول عن
+            مشروعية جمعها وعن إبلاغ العاملين بها.</li>
+        <li><strong>مطوّر التطبيق</strong> يعمل كـ<strong>معالج بيانات</strong> (Data Processor) نيابة عن
+            صاحب العمل: يُستضيف البيانات ويخزّنها ويحميها ولا يستخدمها لأي غرض آخر غير تشغيل الخدمة.</li>
+        <li><strong>العامل</strong> هو صاحب البيانات في سجلات الحضور والصور والموقع التي يجمعها نظام صاحب العمل.</li>
+    </ul>
+
+    <h2>٢. الصلاحيات التي يطلبها التطبيق ولماذا</h2>
+    <p>التطبيق يطلب فقط الصلاحيات اللازمة لتشغيل وظائفه، وكلها مصرَّح بها في ملف التطبيق الرسمي:</p>
+    <table>
+        <thead>
+            <tr><th>الصلاحية</th><th>الغرض منها</th><th>هل يمكن رفضها؟</th></tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><code>CAMERA</code><br>الكاميرا</td>
+                <td>التقاط <strong>صورة لحظية</strong> عند تسجيل الحضور/الانصراف وصور إثبات الدفع</td>
+                <td>لا — الوظيفة الأساسية تتوقف بدونها</td>
+            </tr>
+            <tr>
+                <td><code>ACCESS_FINE_LOCATION</code><br><code>ACCESS_COARSE_LOCATION</code></td>
+                <td>التحقق من وجود العامل داخل نطاق العمل (Geofence) وتسجيل إحداثيات الحضور</td>
+                <td>نعم، لكن يُسجَّل الحضور خارج النطاق</td>
+            </tr>
+            <tr>
+                <td><code>INTERNET</code><br><code>ACCESS_NETWORK_STATE</code></td>
+                <td>كل نداءات الخدمة والصور</td>
+                <td>لا</td>
+            </tr>
+            <tr>
+                <td><code>POST_NOTIFICATIONS</code></td>
+                <td>إشعارات الدفع والتنبيهات المهمة (أندرويد 13+)</td>
+                <td>نعم</td>
+            </tr>
+            <tr>
+                <td><code>WAKE_LOCK</code><br><code>VIBRATE</code></td>
+                <td>إظهار التنبيه الصوتي عالي الأولوية في الوقت المناسب</td>
+                <td>لا (صلاحية تقنية)</td>
+            </tr>
+            <tr>
+                <td><code>RECEIVE_BOOT_COMPLETED</code></td>
+                <td>إعادة تفعيل جدولة الإشعارات بعد إعادة تشغيل الجهاز</td>
+                <td>لا (صلاحية تقنية)</td>
+            </tr>
+        </tbody>
+    </table>
+    <p>
+        <strong>لا يطلب التطبيق ولا يستخدم:</strong> جهات الاتصال، الرسائل النصية، الميكروفون، سجل
+        المكالمات، ملفات الصور أو الملفات العامة، ولا خدمات إعلانات، ولا تتبّع سلوك المستخدم.
+    </p>
+
+    <h2>٣. البيانات التي نجمعها</h2>
+
+    <h3>أ) بيانات حساب صاحب العمل (العميل)</h3>
+    <p>عند تسجيل الدخول بحساب Google يُستقبل من Google ما يلي ويُخزَّن على الخادم:</p>
+    <ul>
+        <li>الاسم (كما يظهر في حساب Google).</li>
+        <li>البريد الإلكتروني لحساب Google.</li>
+        <li>المعرّف الفريد لحساب Google (<code>sub</code>) لربط الجلسات بالحساب نفسه.</li>
+        <li>صورة الملف الشخصي تُعرض داخل التطبيق فقط.</li>
+        <li><strong>رقم هاتف صاحب العمل</strong> (يُدخله بنفسه لتفعيل الاشتراك والتواصل).</li>
+        <li>اسم المنشأة ونوع النشاط، ومواعيد العمل وأيامه، وخطة الاشتراك وحالتها وتاريخ انتهائها.</li>
+    </ul>
+
+    <h3>ب) بيانات المنشأة والموقع</h3>
+    <ul>
+        <li><strong>إحداثيات موقع العمل</strong> (خط الطول/العرض) ونطاق مسموح بالأمتار (Geofence) —
+            يحدّدها صاحب العمل بنفسه من داخل التطبيق، ولا يُقرأ موقع جهازه تلقائياً لهذا الغرض.</li>
+        <li>بيانات الفروع المتعددة (اسم الفرع + إحداثياته) والورديات (أوقات الحضور والانصراف).</li>
+    </ul>
+
+    <h3>ج) بيانات العاملين</h3>
+    <ul>
+        <li>الاسم، رقم الهاتف، تاريخ بدء العمل.</li>
+        <li><strong>بصمة الجهاز (Device ID)</strong>: معرّف عشوائي يُولَّد ويُخزَّن على جهاز العامل نفسه
+            ويُرسَل للخادم للحد من تسجيل الحضور من أكثر من جهاز. ليس معرّفاً حقيقياً للأجهزة
+            (غير IMEI/Serial).</li>
+    </ul>
+
+    <h3>د) سجلات الحضور والانصراف (أهم ما يجمعه النظام)</h3>
+    <p>لكل عملية تسجيل حضور أو انصراف:</p>
+    <ul>
+        <li><strong>التاريخ والوقت</strong> (توقيت الحضور والانصراف) والدقائق المتأخرة.</li>
+        <li><strong>صورة لحظية</strong> تُلتقط بالكاميرا في اللحظة نفسها (لا يُقبل اختيار صورة من المعرض).</li>
+        <li><strong>إحداثيات موقع جهاز العامل</strong> (خط الطول/العرض) لحظة التسجيل، وهل كان داخل النطاق المسموح.</li>
+        <li>الحالة اليومية (حاضر / غائب / لم يسجّل انصراف / متأخر / خارج النطاق / إجازة معتمدة / إذن انصراف).</li>
+        <li>الحضور اليدوي الذي يُدخله صاحب العمل (وقت + ملاحظات إن وُجدت).</li>
+        <li><strong>مهام اليوم</strong>: نص تعليمات يكتبه صاحب العمل ليطلب صورة بزاوية أو مكان محدّد.</li>
+    </ul>
+
+    <h3>هـ) طلبات الإجازات والأذونات</h3>
+    <ul>
+        <li>نوع الطلب (إجازة / إذن انصراف مبكر)، تاريخ البداية والنهاية، <strong>سبب الطلب</strong> الذي
+            يكتبه العامل، وحالة المراجعة وسببها من صاحب العمل.</li>
+    </ul>
+
+    <h3>و) بيانات الدفع والاشتراك</h3>
+    <ul>
+        <li>صورة <strong>إثبات الدفع</strong> (لقطة تحويل)، اسم الخطة، المبلغ، العملة (جنيه مصري/دولار)،
+            ووسيلة الدفع (InstaPay / Vodafone Cash / PayPal)، وحالة الطلب.</li>
+        <li><strong>لا نجمع ولا نمرّر أي بيانات بطاقات بنكية</strong>: الدفع يتم خارج التطبيق ثم يُرفع إثباته فقط.</li>
+    </ul>
+
+    <h3>ز) بيانات تقنية</h3>
+    <ul>
+        <li><strong>رمز إشعارات FCM</strong> الخاص بالجهاز (لإرسال إشعارات الدفع) ورموز مماثلة للآدمن.</li>
+        <li>عنوان IP وطوابع زمنية للطلبات — تُسجَّل في سجلات الخادم لأغراض الأمان ومنع الإساءة.</li>
+        <li><strong>رمز الجلسة (JWT)</strong> ومعرّف الشركة يُخزَّنان <strong>محلياً على الجهاز فقط</strong>
+            لإبقائك مسجّل الدخول.</li>
+        <li><strong>رمز الآدمن الرئيسي (PIN)</strong> لا يُخزَّن كنص صريح أبداً؛ يُحفظ على الخادم مشفَّراً
+            بخوارزمية bcrypt.</li>
+    </ul>
+
+    <h2>٤. كيف نجمع البيانات؟</h2>
+    <ol>
+        <li><strong>مباشرة منك:</strong> بيانات الحساب والمنشأة ورقم الهاتف وإحداثيات الموقع والإعدادات.</li>
+        <li><strong>من جهاز العامل لحظة التسجيل:</strong> الصورة والموقع (بعد منح الصلاحية).</li>
+        <li><strong>من صاحب العمل:</strong> بيانات العاملين وطلبات الاشتراك وإثبات الدفع.</li>
+        <li><strong>تلقائياً:</strong> الطوابع الزمنية، وسجلات الخادم، ورموز الإشعارات.</li>
+    </ol>
+    <p>لا يستخدم التطبيق أي أدوات تحليل سلوك أو تتبّع إعلاني، ولا يقرأ بيانات من تطبيقات أخرى.</p>
+
+    <h2>٥. أغراض الاستخدام والأساس القانوني</h2>
+    <table>
+        <thead>
+            <tr><th>الغرض</th><th>التفصيل</th><th>الأساس القانوني</th></tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>تشغيل الخدمة الأساسية</td>
+                <td>تسجيل الحضور/الانصراف، حساب التأخير والغياب، التقارير، المهام اليومية</td>
+                <td>تنفيذ العقد مع صاحب العمل</td>
+            </tr>
+            <tr>
+                <td>التحقق من الموقع</td>
+                <td>التأكد من وجود العامل داخل نطاق العمل</td>
+                <td>تنفيذ العقد + المصلحة المشروعة</td>
+            </tr>
+            <tr>
+                <td>الصور اللحظية</td>
+                <td>إثبات حضور الشخص نفسه ومنع التلاعب</td>
+                <td>تنفيذ العقد</td>
+            </tr>
+            <tr>
+                <td>إدارة الاشتراك</td>
+                <td>تفعيل الاشتراك، التجديد، ومراجعة إثبات الدفع</td>
+                <td>تنفيذ العقد</td>
+            </tr>
+            <tr>
+                <td>الإشعارات</td>
+                <td>تنبيه الآدمن بطلبات الدفع، وتنبيهات مهمة لصاحب العمل</td>
+                <td>الموافقة (قابلة للسحب)</td>
+            </tr>
+            <tr>
+                <td>الأمن ومكافحة الإساءة</td>
+                <td>تحديد معدلات الطلبات، سجلات الطلبات</td>
+                <td>المصلحة المشروعة</td>
+            </tr>
+        </tbody>
+    </table>
+    <p>
+        لا نستخدم بياناتك في التسويق أو الإعلانات أو بيعها أو مشاركتها لجهات غير مذكورة في هذه
+        السياسة، ولا نتخذ قرارات آلية تُنتج أثراً قانونياً على العامل (القرار في الحضور والغياب
+        يبقى لصاحب العمل).
+    </p>
+
+    <h2>٦. مشاركة البيانات مع أطراف ثالثة</h2>
+    <p>لا نشارك بياناتك إلا مع مزوّدي الخدمة التقنيين اللازمين لتشغيل التطبيق، وبالحد الأدنى المطلوب:</p>
+    <table>
+        <thead>
+            <tr><th>الجهة</th><th>دورها</th><th>البيانات المتأثرة</th></tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><strong>Google (تسجيل الدخول)</strong></td>
+                <td>مصادقة الحساب بحساب Google</td>
+                <td>الاسم، البريد، المعرّف، الصورة</td>
+            </tr>
+            <tr>
+                <td><strong>Firebase Cloud Messaging</strong></td>
+                <td>توصيل الإشعارات للأجهزة</td>
+                <td>رمز الجهاز (FCM Token) ومحتوى التنبيه</td>
+            </tr>
+            <tr>
+                <td><strong>Railway</strong></td>
+                <td>استضافة الخادم وقاعدة بيانات PostgreSQL وتخزين الصور</td>
+                <td>جميع البيانات المخزّنة في النظام</td>
+            </tr>
+            <tr>
+                <td><strong>Google Fonts</strong></td>
+                <td>تحميل خط العرض (Cairo) لأول مرة</td>
+                <td>عنوان IP للجهاز بحكم طبيعة الطلب</td>
+            </tr>
+        </tbody>
+    </table>
+    <ul>
+        <li>لا نبيع بياناتك ولا نتاجر بها، ولا نشاركها مع مُعلنين أو وسطاء بيانات.</li>
+        <li>الوصول إلى الصور على الخادم محمي: لا يمكن لأي شركة تنزيل صور شركة أخرى (يُتحقَّق من
+            ملكية الملف مقابل معرّف الشركة في رمز الجلسة قبل التسليم).</li>
+        <li>قد نُفصح عن البيانات إذا طُلب منّا ذلك بموجب قانون أو أمر قضائي ساري.</li>
+    </ul>
+
+    <h2>٧. المدفوعات</h2>
+    <ul>
+        <li>الدفع يتم <strong>خارج التطبيق</strong> عبر قنوات الدفع اليدوية (InstaPay / Vodafone Cash /
+            PayPal)، ثم يرفع صاحب العمل صورة إثبات الدفع ليتم اعتماد الاشتراك.</li>
+        <li>التطبيق <strong>لا يجمع ولا يعالج ولا يخزّن</strong> أرقام البطاقات البنكية أو CVV أو
+            بيانات الحساب البنكي.</li>
+        <li>صور إثبات الدفع تُحذف تلقائياً بعد مراجعة الطلب (قبول/رفض) أو عند استبدال الطلب.</li>
+    </ul>
+
+    <h2>٨. مدة الاحتفاظ بالبيانات</h2>
+    <table>
+        <thead>
+            <tr><th>البيانات</th><th>مدة الاحتفاظ</th></tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><strong>صور الحضور والانصراف</strong></td>
+                <td><strong>٣٠ يوماً فقط</strong>، ثم تُحذف ملفات الصور تلقائياً بمهمة يومية مجدولة
+                    (٣:٠٠ صباحاً بتوقيت القاهرة). يبقى سجل الحضور نفسه (الوقت والموقع والحالة) للتقارير.</td>
+            </tr>
+            <tr>
+                <td>سجلات الحضور والانصراف (بيانات التقارير)</td>
+                <td>تُحفظ ما دام حساب المنشأة قائماً — لأنها أساس تقارير الحضور والرواتب.</td>
+            </tr>
+            <tr>
+                <td>صور إثبات الدفع</td>
+                <td>تُحذف فور مراجعة الطلب (قبول/رفض) أو عند استبدال الطلب.</td>
+            </tr>
+            <tr>
+                <td>طلبات الإجازات والمهام اليومية</td>
+                <td>تبقى مع بيانات الشركة للرجوع إليها في التقارير.</td>
+            </tr>
+            <tr>
+                <td>بيانات حساب صاحب العمل</td>
+                <td>تبقى ما دام الحساب نشطاً، وتُخفى فوراً عند حذف الحساب.</td>
+            </tr>
+            <tr>
+                <td>رموز الجلسات المحلية على الجهاز</td>
+                <td>تُحذف عند تسجيل الخروج أو إلغاء تثبيت التطبيق.</td>
+            </tr>
+            <tr>
+                <td>سجلات الخادم (IP والطوابع الزمنية)</td>
+                <td>فترة قصيرة لأغراض الأمن ومنع الإساءة، ثم تُحذف مع تدوير السجلات.</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>٩. أمان البيانات</h2>
+    <ul>
+        <li>جميع الاتصالات بين التطبيق والخادم مشفّرة عبر <strong>HTTPS/TLS فقط</strong> (تم تعطيل
+            الاتصال غير المشفّر في إعدادات التطبيق).</li>
+        <li><strong>لا تُخزَّن كلمات المرور</strong>: الدخول يتم عبر Google، ورمز الآدمن يُحفظ مشفّراً
+            بخوارزمية bcrypt.</li>
+        <li>الجلسات محمية برموز <strong>JWT</strong> موقّعة ومنتهية الصلاحية، والصور تُطلب فقط مع
+            رمز جلسة صحيح.</li>
+        <li><strong>عزل بيانات الشركات</strong>: كل شركة ترى بياناتها فقط، والصور محمية بتحقّق من
+            ملكية الملف للشركة.</li>
+        <li><strong>تحديد معدل الطلبات</strong> (Rate limiting) على نقاط الدخول الحساسة لمنع التخمين
+            والإساءة.</li>
+        <li>التطبيق المنشور مبني بتصغير الكود وحمايته (R8/Minify) وتعطيل وضع التصحيح.</li>
+    </ul>
+    <div class="note">
+        <strong>ملاحظة مهمة:</strong> رغم كل الإجراءات، لا يوجد نظام نقل أو تخزين إلكتروني آمن بنسبة
+        100%. نحن نلتزم بمعايير الحماية المعقولة تقنياً وتنظيمياً، ونبلّغ المستخدمين بأي اختراق
+        يؤثر عليهم إذا وقع.
+    </div>
+
+    <h2>١٠. حقوقك</h2>
+    <p>لك — بصفتك صاحب حساب — الحقوق التالية:</p>
+    <ul>
+        <li><strong>الوصول:</strong> طلب نسخة من بياناتك المخزّنة.</li>
+        <li><strong>التصحيح:</strong> تعديل الاسم أو رقم الهاتف أو بيانات المنشأة من داخل التطبيق أو بالطلب.</li>
+        <li><strong>الحذف:</strong> حذف حسابك وبياناتك (انظر بند ١١).</li>
+        <li><strong>الاعتراض أو التقييد:</strong> طلب إيقاف معالجة معيّنة أو تقييدها.</li>
+        <li><strong>سحب الموافقة:</strong> تعطيل صلاحية الكاميرا أو الموقع أو الإشعارات من إعدادات
+            الجهاز في أي وقت (مع العلم أن ذلك يعطّل الوظائف المرتبطة بها).</li>
+        <li><strong>نقل البيانات:</strong> طلب تصدير سجلات الحضور في صيغة مقروءة.</li>
+    </ul>
+    <p>
+        <strong>للعاملين:</strong> يُرجى التقدّم أولاً إلى صاحب العمل صاحب بياناتك، وبإمكانك التواصل
+        معنا وسنساعد في توجيه الطلب إلى الجهة المسؤولة.
+    </p>
+    <p>
+        <strong>مدة الرد:</strong> نستهدف الرد خلال <strong>٣٠ يوماً</strong> كحد أقصى.
+        <strong>التواصل:</strong> <a href="mailto:elhosam77@gmail.com">elhosam77@gmail.com</a>
+    </p>
+
+    <h2>١١. حذف الحساب والبيانات</h2>
+    <p>يمكنك حذف حسابك بإحدى الطريقتين:</p>
+    <ol>
+        <li><strong>من داخل التطبيق:</strong> الإعدادات ← «حذف الحساب» (يُوقف الحساب ويُخفى فوراً
+            ويُنهى الاشتراك).</li>
+        <li><strong>بالطلب:</strong> إرسال بريد إلى
+            <a href="mailto:elhosam77@gmail.com">elhosam77@gmail.com</a> بعنوان «طلب حذف حساب IN»
+            مع كتابة البريد المستخدم في تسجيل الدخول.</li>
+    </ol>
+    <p>ما يحدث عند الحذف:</p>
+    <ul>
+        <li>يُوقَف الوصول إلى الحساب فوراً ويُخفى من نتائج البحث والروابط العامة.</li>
+        <li>تُحذف الصور المرفوعة (صور الحضور وإثبات الدفع) من التخزين.</li>
+        <li>تبقى سجلات الحضور التاريخية بصورة <strong>مجهولة الهوية</strong> إن كان ذلك لازماً
+            للالتزامات المحاسبية والقانونية، أو تُحذف نهائياً بناءً على طلبك الصريح خلال ٣٠ يوماً.</li>
+        <li>لا يمكن التراجع عن الحذف بعد اكتماله.</li>
+    </ul>
+
+    <h2>١٢. خصوصية العاملين داخل مكان العمل</h2>
+    <ul>
+        <li>التطبيق أداة <strong>إدارة عمل</strong> مخصّصة لعاملين بدأوا العمل فعلاً مع صاحب العمل،
+            وليس أداة للمراقبة خارج ساعات العمل.</li>
+        <li>الصور تُلتقط <strong>لحظة تسجيل الحضور أو الانصراف فقط</strong>، ولا يوجد تتبّع مستمر
+            للموقع في الخلفية (يُقرأ الموقع لحظة الضغط على زر الحضور/الانصراف فقط).</li>
+        <li><strong>على صاحب العمل</strong> — بصفتك المسؤول المباشر — إبلاغ العاملين بأن صورهم
+            ومواقعهم تُسجّل لهذا الغرض، والحصول على أي موافقة مطلوبة في بلدك، وعدم استخدام البيانات
+            لغرض آخر.</li>
+        <li>العامل يمكنه دائماً مراجعة سجلاته عبر رابط الشركة، والتقدّم بطلب إلى صاحب العمل لتصحيح
+            أي خطأ.</li>
+    </ul>
+
+    <h2>١٣. الأطفال</h2>
+    <p>
+        التطبيق موجّه للاستخدام التجاري ويستهدفه البالغون (١٨ سنة أو أكثر)، ولا يُوجَّه للأطفال دون
+        ١٣ سنة ولا نجمع بياناتهم عن قصد. إذا اكتشفنا وجود بيانات لطفل دون السن القانونية فسنحذفها فوراً.
+    </p>
+
+    <h2>١٤. البيانات المخزّنة على جهازك</h2>
+    <ul>
+        <li>لا يُخزَّن على الجهاز سوى: رمز الجلسة (JWT)، معرّف الشركة، وإعدادات بسيطة (تظهر/تُخفى) في
+            التخزين المحلي الخاص بالتطبيق (SharedPreferences).</li>
+        <li>على العامل في رابط الويب: معرّف الجهاز (Device ID) يُخزَّن محلياً في المتصفح.</li>
+        <li><strong>لا يصل التطبيق إلى</strong> جهات الاتصال أو ملفات الصور أو الملفات الأخرى على الجهاز.</li>
+        <li>يمكنك حذف البيانات المحلية بتسجيل الخروج أو بمسح بيانات التطبيق أو إلغاء تثبيته.</li>
+    </ul>
+
+    <h2>١٥. الإشعارات</h2>
+    <ul>
+        <li>التطبيق يرسل إشعارات تشغيلية فقط (تنبيه صاحب العمل بطلب تفعيل جديد، وتنبيهات مهمة عن
+            الاشتراك). لا توجد إشعارات إعلانية.</li>
+        <li>يمكنك إيقاف الإشعارات من إعدادات النظام في أي وقت.</li>
+    </ul>
+
+    <h2>١٦. التغييرات على هذه السياسة</h2>
+    <p>
+        قد نُحدّث هذه السياسة عند تغيّر ميزات التطبيق أو الأنظمة المعمول بها. سيُحدَّث «آخر تحديث» في
+        أعلى الصفحة، والتغييرات الجوهرية تُعلَن داخل التطبيق قبل سريانها. استمرارك في استخدام التطبيق
+        بعد التحديث يعني موافقتك على السياسة المحدَّثة.
+    </p>
+
+    <h2>١٧. القانون المنطبق</h2>
+    <p>
+        الخدمة مُقدَّمة من مصر، ويُحكم هذا المستند وفق القوانين المعمول بها في جمهورية مصر العربية،
+        مع مراعاة أي حقوق إلزامية في بلدك (مثل قوانين حماية البيانات الأوروبية لمن يستخدم الخدمة من
+        دول الاتحاد الأوروبي).
+    </p>
+
+    <h2>١٨. التواصل</h2>
+    <p>لأي سؤال أو شكوى أو طلب متعلق بالبيانات، تواصل معنا:</p>
+    <ul>
+        <li><strong>البريد الإلكتروني:</strong> <a href="mailto:elhosam77@gmail.com">elhosam77@gmail.com</a></li>
+        <li><strong>مطوّر التطبيق:</strong> Hosam Hasan</li>
+    </ul>
+
+    <h2>١٩. مرجع لملئ استمارة «سلامة البيانات» في Google Play Console</h2>
+    <table>
+        <thead>
+            <tr><th>نوع البيانات</th><th>تُجمع؟</th><th>تُشارَك؟</th><th>الغرض</th><th>إلزامية؟</th></tr>
+        </thead>
+        <tbody>
+            <tr><td>الاسم</td><td>نعم</td><td>لا</td><td>إدارة الحساب وإدارة العاملين</td><td>إلزامية</td></tr>
+            <tr><td>البريد الإلكتروني</td><td>نعم</td><td>لا</td><td>تسجيل الدخول وإدارة الحساب</td><td>إلزامية</td></tr>
+            <tr><td>رقم الهاتف</td><td>نعم</td><td>لا</td><td>التواصل وتفعيل الاشتراك</td><td>إلزامية</td></tr>
+            <tr><td>معرّفات المستخدم (User IDs)</td><td>نعم</td><td>لا</td><td>ربط الحساب والجلسات</td><td>إلزامية</td></tr>
+            <tr><td>الموقع التقريبي/الدقيق</td><td>نعم</td><td>لا</td><td>التحقق من نطاق العمل</td><td>إلزامية للحضور</td></tr>
+            <tr><td>الصور</td><td>نعم</td><td>لا</td><td>إثبات الحضور وإثبات الدفع</td><td>إلزامية</td></tr>
+            <tr><td>رسائل داخل التطبيق (سبب الإجازة، المهام)</td><td>نعم</td><td>لا</td><td>تشغيل الخدمة</td><td>اختيارية</td></tr>
+            <tr><td>المخزون المالي (المبلغ/الخطة/إثبات الدفع)</td><td>نعم</td><td>لا</td><td>إدارة الاشتراك</td><td>إلزامية للاشتراك</td></tr>
+            <tr><td>معرّفات الجهاز (FCM Token)</td><td>نعم</td><td>لا</td><td>الإشعارات</td><td>إلزامية للإشعارات</td></tr>
+            <tr><td>سجلات الأعطال / الأداء / التتبّع</td><td>لا</td><td>—</td><td>—</td><td>—</td></tr>
+        </tbody>
+    </table>
+    <p>
+        <strong>ممارسات الأمان المُعلَنة:</strong> نقل البيانات مشفّر (TLS) ✓ — يمكن للمستخدم طلب حذف
+        بياناته ✓ — لا إعلانات ✓ — لا استخدام لتتبّع عبر التطبيقات ✓.
+    </p>
+
+    <hr style="margin: 40px 0 10px; border: none; border-top: 2px solid var(--border);">
+
+    <div class="en">
+        <h2>Privacy Policy (English)</h2>
+        <p>
+            <strong>App:</strong> IN — attendance, location and shift management for businesses ·
+            <strong>Package:</strong> <code>com.inemperor.hosam77</code> ·
+            <strong>Last updated:</strong> 10 September 2026 ·
+            <strong>Contact:</strong> <a href="mailto:elhosam77@gmail.com">elhosam77@gmail.com</a>
+        </p>
+
+        <h3>Roles</h3>
+        <p>
+            The employer (our customer) is the <strong>data controller</strong> for their company and
+            employee data. The app developer acts as a <strong>data processor</strong>, hosting and
+            protecting that data solely to operate the service.
+        </p>
+
+        <h3>Data we collect</h3>
+        <ul>
+            <li>Employer account: name, Google email, Google account ID (<code>sub</code>), profile
+                picture, phone number, company name/type, working hours, subscription plan and status.</li>
+            <li>Workplace location: latitude/longitude and geofence radius of the company and its
+                branches (entered by the employer); the employee device location is read only at the
+                moment of check-in/out.</li>
+            <li>Employees: name, phone number, work start date, and a random locally-generated device
+                ID that is not a hardware identifier (no IMEI/serial).</li>
+            <li>Attendance records: check-in/out timestamps, a live camera photo, the device's
+                coordinates and whether the check-in was inside the allowed geofence, late minutes and
+                daily status.</li>
+            <li>Leave requests: type, dates and the reason text.</li>
+            <li>Payments: proof-of-payment image, plan, amount, currency and manual payment method.</li>
+            <li>Technical: push notification token (FCM), IP address and request timestamps in server
+                logs, and a session token (JWT) stored locally on the device only.</li>
+        </ul>
+        <p>
+            <strong>We never collect:</strong> bank card numbers, CVV or bank credentials (payments
+            happen outside the app), and we have no advertising or behavioural-tracking SDKs.
+        </p>
+
+        <h3>Permissions</h3>
+        <p>
+            Camera (live check-in photo), precise/approximate location (geofence verification),
+            internet/network state, notifications, wake lock/vibrate and boot-completed (notification
+            scheduling). No contacts, SMS, microphone, call logs or photo-library access.
+        </p>
+
+        <h3>Retention</h3>
+        <p>
+            Attendance photos are <strong>automatically deleted after 30 days</strong>; attendance
+            records (times, location, status) are kept while the company account exists; payment-proof
+            images are deleted once the request is reviewed.
+        </p>
+
+        <h3>Third parties</h3>
+        <p>
+            Google Sign-In (authentication), Google Firebase Cloud Messaging (notifications), Railway
+            (server, PostgreSQL database and image storage) and Google Fonts (font download). We do not
+            sell or trade personal data.
+        </p>
+
+        <h3>Security</h3>
+        <p>
+            HTTPS/TLS only, bcrypt-hashed admin PIN, signed JWT sessions, per-company isolation and
+            authenticated media access, request rate limiting, and a release build with code
+            minification/obfuscation and debugging disabled.
+        </p>
+
+        <h3>Your rights</h3>
+        <p>
+            Access, correction, deletion, restriction/objection, withdrawal of consent (device
+            settings) and data portability. Requests are answered within 30 days.
+        </p>
+
+        <h3>Account deletion</h3>
+        <p>
+            In-app: Settings → Delete account, or email us with the subject "IN account deletion
+            request". Access stops immediately, uploaded images are deleted, and historical attendance
+            records are either anonymised (if required for legal/accounting obligations) or permanently
+            deleted.
+        </p>
+
+        <h3>Children</h3>
+        <p>Business tool intended for adults (18+); not directed to children under 13.</p>
+
+        <h3>Changes</h3>
+        <p>
+            Any update will be reflected in the "last updated" date above, and material changes will be
+            announced in the app before taking effect.
+        </p>
+    </div>
+
+
+</main>
+
+<footer>
+    <p>© 2026 تطبيق IN — جميع الحقوق محفوظة.</p>
+    <p>هذه السياسة منشورة لأغراض Google Play Console ومتاحة للعامة.</p>
+</footer>
+
+</body>
+</html>
