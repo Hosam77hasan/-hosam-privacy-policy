@@ -1,0 +1,29 @@
+# app-ads.txt — Hosam Hasan (@Hosam77hasan)
+#
+# Authorized Sellers for Apps (IAB). It tells ad exchanges which accounts are
+# allowed to sell this publisher's app inventory, which is what stops a spoofed
+# copy of an app from being sold as if it were ours.
+#
+# WHERE THIS FILE HAS TO LIVE
+# ---------------------------
+# Google's crawler reads it from the ROOT of the developer-website domain, not
+# from a subfolder:
+#     https://hosam77hasan.github.io/app-ads.txt        <-- the address that counts
+# The copy in this repository is served at
+#     https://hosam77hasan.github.io/-hosam-privacy-policy/app-ads.txt
+# Same file, but only the address above is at the domain root — see README of
+# this repository for how to publish it (a repo named `Hosam77hasan.github.io`).
+#
+# BEFORE PUBLISHING — the one line that matters
+# ---------------------------------------------
+# Replace the placeholder publisher id below with your own from the AdMob
+# console (AdMob -> Settings -> Account -> Publisher ID), then delete these
+# comment lines if you like. AdMob reports "not found" until the real id is
+# served, because a placeholder authorizes nobody.
+#
+# Format: <ad system domain>, <publisher account id>, <account type>, <cert id>
+#   - the publisher account id is `pub-` followed by 16 digits
+#   - f08c47fec0942fa0 is Google's certification authority id: keep it as it is
+#
+# معرّف الناشر لازم يتغيّر من AdMob → Settings → Account قبل ما الملف يشتغل.
+google.com, pub-0000000000000000, DIRECT, f08c47fec0942fa0
