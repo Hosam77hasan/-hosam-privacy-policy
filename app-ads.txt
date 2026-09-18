@@ -11,8 +11,8 @@
 #     https://hosam77hasan.github.io/app-ads.txt        <-- the address that counts
 # The copy in this repository is served at
 #     https://hosam77hasan.github.io/-hosam-privacy-policy/app-ads.txt
-# Same file, but only the address above is at the domain root — see README of
-# this repository for how to publish it (a repo named `Hosam77hasan.github.io`).
+# and the canonical copy — the one that is actually at the domain root — lives in
+# the user-site repository `Hosam77hasan.github.io`. Keep the two identical.
 #
 # BEFORE PUBLISHING — the one line that matters
 # ---------------------------------------------
